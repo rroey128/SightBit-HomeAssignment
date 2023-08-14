@@ -19,6 +19,8 @@ after the sky removal proccess, It uses detectron2's mask_rcnn_R_50_FPN_3x model
 The third part - visualization : 
 I used pretty basic tools in order to draw and visualize the annotations on the images (mainly used the cv2 library). If you wish a different approach or a different style of visualization, you can edit or update anything below cell 26 (including this one). Please make sure to update the paths and folders in the relevant places in the code as well.
 
+WARNING : 
+if you use this script on a different data-set that is not of COCO-format, make sure to update COCO specific functions such as 'extract_image_id_from_path' in cell 30 and 'update_annotations' in cell 16.
 
 
 

@@ -1,5 +1,5 @@
 # SightBit-HomeAssignment
-The following is a script that is used for sky removal and re-annotate images that are of COCO dataset format. 
+The following is a script that is used for sky removal and re-annotation of images that are of COCO dataset format. 
 It consists of three main parts, each of those is editable and can be modified in order to adjust it's usage for different images or data-sets. 
 
 The first part - extracting images (starting in the 6'th cell) :
